@@ -6,11 +6,11 @@
     },
     "Users": {
         "id": { "int": [1, 2, 3, 4, 5] },
-        "name": { "string": ["Wayne", "sarah", "Parker", "Allison", "Hudson"] },
+        "name": { "string": ["Wayne", "sarah", "Parker", "Allison", "Hudson"] }
     },
     "assignments": {
         "id": { "int": {} },
-        "chore_id": { "int": {} | [], "belongsTo": "Chores" },
-        "user_id": { "int": {} | [], "belongsTo": "Users" }
+        "chore_id": { "int": {}, "belongsTo": "Chores" },
+        "user_id": { "int": {}, "belongsTo": "Users" }
     }
   }
