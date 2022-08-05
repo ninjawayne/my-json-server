@@ -6,22 +6,5 @@
       "name": {
         "string": ["Wayne", "Sarah", "Parker", "Allison", "Hudson"]
       }
-    },
-    "chores": {
-        "id": {
-            "int": [1, 2, 3, 4, 5]
-          },
-        "name": {
-            "loremWords": {
-            "minLength": 1,
-            "maxLength": 5
-            }
-        },
-        "description": {
-            "loremParagraphs": {
-                "minLength": 20,
-                "maxLength": 35
-            }
-        }
     }
   }
