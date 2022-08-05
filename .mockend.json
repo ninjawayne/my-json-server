@@ -1,12 +1,12 @@
 {
     "Chores": {
-        "id": { "int": {} },
-        "name": { "string": {} },
+        "id": { "int": [1, 2, 3, 4, 5] },
+        "name": { "string": ["Unload Dishwasher", "Load Dishwasher", "Take Trash To the Street", "Laundry", "Bathroom"] },
         "description": { "string": {} }
     },
     "Users": {
-        "id": { "int": {} },
-        "name": { "string": {} }
+        "id": { "int": [1, 2, 3, 4, 5] },
+        "name": { "string": ["Wayne", "sarah", "Parker", "Allison", "Hudson"] },
     },
     "assignments": {
         "id": { "int": {} },
