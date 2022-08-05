@@ -10,7 +10,7 @@
     },
     "assignments": {
         "id": { "int": {} },
-        "chore_id": { "int": {}, "belongsTo": "Chores" },
-        "user_id": { "int": {}, "belongsTo": "Users" }
+        "chore_id": { "int": [1, 2, 3, 4], "belongsTo": "Chores" },
+        "user_id": { "int": [ 3, 4, 3, 4], "belongsTo": "Users" }
     }
   }
